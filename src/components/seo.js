@@ -40,6 +40,10 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          name: `google-site-verification`,
+          content: `o-ZrFQ2kDUJOaIVATXwAdMtK4ln4a2WXtv8Dfc5B-_c`,
+        },
+        {
           property: `og:title`,
           content: title,
         },
