@@ -1,17 +1,6 @@
 ---
 title: Deploy a Static React Blog using GatsbyJS and Github
 date: "2019-07-14T11:12:03.284Z"
-cover_image: "./gatsby-static-react-blog-cover.jpg"
-tags:
-  [
-    "design",
-    "development",
-    "react",
-    "github",
-    "gatsbyjs",
-    "ssg",
-    "static site generator",
-  ]
 ---
 
 ![Gatsby Static React Blog Cover](./gatsby-static-react-blog-cover.jpg)

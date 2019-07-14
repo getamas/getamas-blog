@@ -15,10 +15,7 @@ export default class BlogPostTemplate extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO
-          title={post.frontmatter.title}
-          description={post.frontmatter.description || post.excerpt}
-        />
+        <SEO title={post.frontmatter.title} description={post.excerpt} />
         <article className="entry">
           <h1 className="entry__title">{post.frontmatter.title}</h1>
           <small className="entry__publish-date">{post.frontmatter.date}</small>
@@ -65,7 +62,6 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
-        description
       }
     }
   }
