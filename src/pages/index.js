@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PostArchive from "../components/PostArchive"
 
-import "../styles/main.sass"
+import "../styles/main.scss"
 
 class BlogIndex extends Component {
   render() {
